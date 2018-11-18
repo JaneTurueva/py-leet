@@ -44,7 +44,17 @@ setup(
         'develop': [
             'pylama',
             'pytest',
-            'twine'
+            'tox',
+            'twine',
+            'coverage!=4.3',
+            'coveralls',
+
+
+            'pytest-cov',
+
+
+
+            'tox>=2.4',
         ],
     },
     url='https://github.com/JaneTurueva/py-leet'
