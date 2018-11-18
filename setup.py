@@ -42,7 +42,9 @@ setup(
     packages=find_packages(exclude=['tests']),
     extras_require={
         'develop': [
-            'pytest'
+            'pylama',
+            'pytest',
+            'twine'
         ],
     },
     url='https://github.com/JaneTurueva/py-leet'

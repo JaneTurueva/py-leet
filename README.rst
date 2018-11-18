@@ -43,7 +43,7 @@ Command-line usage
 .. code-block:: shell
 
     leet Hello, world!
-    H3ll0, w0rld!
+    > H3ll0, w0rld!
     
     
 Library usage
@@ -51,6 +51,7 @@ Library usage
 .. code-block:: shell
 
     from leet import leet
+    
     print(leet('Hello, world!'))
     
    
@@ -60,3 +61,4 @@ Versioning
 This software follows `Semantic Versioning`_
 
 
+.. _Semantic Versioning: http://semver.org/
