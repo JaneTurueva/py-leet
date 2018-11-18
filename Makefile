@@ -14,5 +14,5 @@ build: clean
 test:
 	env/bin/tox
 
-upload: sdist
+upload: build
 	env/bin/twine upload dist/*
