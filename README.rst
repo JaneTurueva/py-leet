@@ -1,16 +1,12 @@
 leet
 ========
 
-.. image:: https://readthedocs.org/projects/leet/badge/?version=latest
-    :target: https://leet.readthedocs.org/
-    :alt: ReadTheDocs
-
 .. image:: https://coveralls.io/repos/github/JaneTurueva/leet/badge.svg?branch=master
     :target: https://coveralls.io/github/JaneTurueva/leet
     :alt: Coveralls
 
-.. image:: https://travis-ci.org/JaneTurueva/leet.svg
-    :target: https://travis-ci.org/JaneTurueva/leet
+.. image:: https://travis-ci.org/JaneTurueva/py-leet.svg
+    :target: https://travis-ci.org/JaneTurueva/py-leet
     :alt: Travis CI
 
 .. image:: https://img.shields.io/pypi/v/leet.svg
