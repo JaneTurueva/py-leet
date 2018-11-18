@@ -1,1 +1,62 @@
-# py-leet
+leet
+========
+
+.. image:: https://readthedocs.org/projects/leet/badge/?version=latest
+    :target: https://leet.readthedocs.org/
+    :alt: ReadTheDocs
+
+.. image:: https://coveralls.io/repos/github/JaneTurueva/leet/badge.svg?branch=master
+    :target: https://coveralls.io/github/JaneTurueva/leet
+    :alt: Coveralls
+
+.. image:: https://travis-ci.org/JaneTurueva/leet.svg
+    :target: https://travis-ci.org/JaneTurueva/leet
+    :alt: Travis CI
+
+.. image:: https://img.shields.io/pypi/v/leet.svg
+    :target: https://pypi.python.org/pypi/leet/
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/wheel/leet.svg
+    :target: https://pypi.python.org/pypi/leet/
+
+.. image:: https://img.shields.io/pypi/pyversions/leet.svg
+    :target: https://pypi.python.org/pypi/leet/
+
+.. image:: https://img.shields.io/pypi/l/leet.svg
+    :target: https://pypi.python.org/pypi/leet/
+    
+    
+Command-line tool and library for leeting text.
+
+
+Installation
+------------
+
+.. code-block:: shell
+
+    pip install leet
+    
+    
+Command-line usage
+------------------
+.. code-block:: shell
+
+    leet Hello, world!
+    H3ll0, w0rld!
+    
+    
+Library usage
+-------------
+.. code-block:: shell
+
+    from leet import leet
+    print(leet('Hello, world!'))
+    
+   
+Versioning
+==========
+
+This software follows `Semantic Versioning`_
+
+
