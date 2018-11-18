@@ -19,9 +19,10 @@ setup(
     author_email=module.__email__,
     license=module.__license__,
     description=module.__doc__,
-    long_description=open("README.rst").read(),
+    long_description=open('README.rst').read(),
     platforms="all",
     classifiers=[
+        'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Operating System :: MacOS',
@@ -33,6 +34,8 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: Implementation :: CPython',
+        'Topic :: Software Development',
+        'Topic :: Software Development :: Libraries',
     ],
     entry_points={
       'console_scripts': [
@@ -40,6 +43,7 @@ setup(
       ]
     },
     packages=find_packages(exclude=['tests']),
+    install_requires=[],
     extras_require={
         'develop': [
             'coverage!=4.3',

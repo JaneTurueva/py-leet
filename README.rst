@@ -1,3 +1,6 @@
+.. _leeting text: https://en.wikipedia.org/wiki/Leet
+
+
 leet
 ========
 
@@ -21,9 +24,9 @@ leet
 
 .. image:: https://img.shields.io/pypi/l/leet.svg
     :target: https://pypi.python.org/pypi/leet/
-    
-    
-Command-line tool and library for leeting text.
+
+
+Command-line tool and library for `leeting text`_.
 
 
 Installation
@@ -40,8 +43,8 @@ Command-line usage
 
     leet Hello, world!
     > H3ll0, w0rld!
-    
-    
+
+
 Library usage
 -------------
 .. code-block:: shell
@@ -49,8 +52,8 @@ Library usage
     from leet import leet
     
     print(leet('Hello, world!'))
-    
-   
+
+
 Versioning
 ==========
 
