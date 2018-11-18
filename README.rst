@@ -3,9 +3,9 @@
 
 leet
 ========
-
-.. image:: https://coveralls.io/repos/github/JaneTurueva/leet/badge.svg?branch=master
-    :target: https://coveralls.io/github/JaneTurueva/leet
+    
+.. image:: https://coveralls.io/repos/github/JaneTurueva/py-leet/badge.svg?branch=master
+    :target: https://coveralls.io/github/JaneTurueva/py-leet?branch=master
     :alt: Coveralls
 
 .. image:: https://travis-ci.org/JaneTurueva/py-leet.svg
