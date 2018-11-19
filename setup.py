@@ -46,6 +46,7 @@ setup(
     },
     packages=find_packages(exclude=['tests']),
     install_requires=[],
+    python_requires=">3.4.*, <4",
     extras_require={
         'develop': [
             'coverage!=4.3',
