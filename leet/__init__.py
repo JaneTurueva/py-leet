@@ -1,6 +1,4 @@
-"""
-Leet library
-"""
+""" Leet library """
 from .main import leet
 
 __author__ = 'Evgenia Turueva'
