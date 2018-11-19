@@ -1,7 +1,13 @@
-all: test
+all:
+	@echo "make devenv	- Configure dev environment"
+	@echo "make build	- Build sdist & bdist_wheel packages"
+	@echo "make clean	- Remove files created by distutils & dev modules"
+	@echo "make test	- Run tests"
+	@echo "make upload	- Upload to the PyPI registry"
+	@exit 0
 
 devenv:
-	rm -r env
+	rm -rf env
 	virtualenv env -p python3
 	env/bin/pip install -Ue '.[develop]'
 
