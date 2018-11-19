@@ -1,6 +1,3 @@
-.. _leeting text: https://en.wikipedia.org/wiki/Leet
-
-
 leet
 ========
     
@@ -59,5 +56,5 @@ Versioning
 
 This software follows `Semantic Versioning`_
 
-
+.. _leeting text: https://en.wikipedia.org/wiki/Leet
 .. _Semantic Versioning: http://semver.org/
