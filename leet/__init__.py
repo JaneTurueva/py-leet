@@ -1,12 +1,10 @@
-"""
-Leet library
-"""
+""" Leet library """
 from .main import leet
 
 __author__ = 'Evgenia Turueva'
 __email__ = 'tindomirel1994@gmail.com'
 __license__ = 'MIT',
-__version__ = '0.0.5'
+__version__ = '0.0.6'
 
 
 __all__ = (
