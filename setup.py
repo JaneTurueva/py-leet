@@ -22,6 +22,7 @@ setup(
     long_description=open('README.rst').read(),
     platforms="all",
     classifiers=[
+        'Environment :: Console',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
@@ -33,6 +34,7 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: Implementation :: PyPy',
         'Programming Language :: Python :: Implementation :: CPython',
         'Topic :: Software Development',
         'Topic :: Software Development :: Libraries',
@@ -44,6 +46,7 @@ setup(
     },
     packages=find_packages(exclude=['tests']),
     install_requires=[],
+    python_requires=">3.4.*, <4",
     extras_require={
         'develop': [
             'coverage!=4.3',
