@@ -25,6 +25,17 @@ leet
 
 Command-line tool and library for `leeting text`_.
 
+Library uses following vocabulary:
+ 
+========  ===========
+Original  Replacement
+========  ===========
+A a       @
+E e       3
+I i       1
+O o       0
+S s       5
+========  ===========
 
 Installation
 ------------
