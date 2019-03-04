@@ -14,7 +14,7 @@ def make_random_string(length: int):
    return ''.join(random.choice(letters) for i in range(length))
 
 
-@pytest.mark.parametrize("str_lenght, iterations_number, max_time", [
+@pytest.mark.parametrize("str_length, iterations_number, max_time", [
     (512, 1000, 1),
     (65536, 1000, 30),
     (1048576, 100, 50),
@@ -24,7 +24,6 @@ def make_random_string(length: int):
 def test_perfomance(str_length: int, iterations_number: int, max_time: int):
     code = template % make_random_string(str_length)
     time = timeit.timeit(stmt=code, setup=setup, number=iterations_number)
-
     assert time < max_time, "Too slow for %d bytes, %d iterations" % (
         str_length, iterations_number
     )
