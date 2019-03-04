@@ -64,6 +64,7 @@ Library usage
 
 Performance
 -----------
+
 ==========  ==========  =======
 Str length  Iterations  Time
 ==========  ==========  =======
@@ -72,7 +73,7 @@ Str length  Iterations  Time
 1mb         100         43.9317
 1mb         10          4.3865
 10mb        2           9.0262
-==========  =========== =======
+==========  ==========  =======
 
 
 Versioning
