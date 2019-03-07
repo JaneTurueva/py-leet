@@ -10,8 +10,8 @@ template = 'leet("%s")'
 
 
 def make_random_string(length: int):
-   letters = string.ascii_lowercase
-   return ''.join(random.choice(letters) for i in range(length))
+    letters = string.ascii_lowercase
+    return ''.join(random.choice(letters) for i in range(length))
 
 
 @pytest.mark.parametrize("str_length, iterations_number, max_time", [
