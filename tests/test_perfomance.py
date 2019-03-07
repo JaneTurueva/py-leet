@@ -15,11 +15,11 @@ def make_random_string(length: int):
 
 
 @pytest.mark.parametrize("str_length, iterations_number, max_time", [
-    (512, 1000, 1),
-    (65536, 1000, 30),
-    (1048576, 100, 50),
-    (1048576, 10, 50),
-    (10485760, 2, 10)
+    (512, 1000, 0.01),
+    (65536, 1000, 0.2),
+    (1048576, 100, 0.2),
+    (1048576, 10, 0.02),
+    (10485760, 2, 0.04)
 ])
 def test_perfomance(str_length: int, iterations_number: int, max_time: int):
     code = template % make_random_string(str_length)
