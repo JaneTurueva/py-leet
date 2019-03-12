@@ -5,7 +5,7 @@ leet
     :target: https://coveralls.io/github/JaneTurueva/py-leet?branch=master
     :alt: Coveralls
 
-.. image:: https://travis-ci.org/JaneTurueva/py-leet.svg
+.. image:: https://travis-ci.org/JaneTurueva/py-leet.svg?branch=master
     :target: https://travis-ci.org/JaneTurueva/py-leet
     :alt: Travis CI
 
@@ -64,6 +64,8 @@ Library usage
 
 Performance
 -----------
+
+Is applicable for python 3.5+. Python 3.4 and lower would be slower.
 
 ==========  ==========  =======
 Str length  Iterations  Time
